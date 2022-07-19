@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.todo-app-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-app-title {
+  margin: 2px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 100px;
+  color: rgb(135, 135, 238);
+}
+
+.todo-desc {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+input {
+  border: 2px;
+}
+
+#todo-app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-app-container {
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+}
+
+.refresh {
+  background-color: white;
+}
+
+.todo-app-input {
+  height: 50px;
+  padding: 0 10px 0 10px;
+  background-color: #b2c0f0;
+  width: 85%;
+}
+
+.todo-app-btn {
+  height: 40px;
+  background-color: #e7ebf3;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.todo-app-form {
+  margin: 5px;
+  background-color: #e7ebf3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f4e8e8;
+}
+
+.clear-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clear-list-btn {
+  font-size: 10px;
+  background-color: rgb(138, 147, 189);
+  color: black;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 6px;
+  width: 35%;
+}
+
+.clear-btn {
+  background-color: black;
+  color: white;
+  font-size: 9px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+}
